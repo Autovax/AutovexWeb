@@ -1,0 +1,42 @@
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 273-178-088
+130.64.25.63 - - [06/Mar/2020 21:20:36] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:20:36] "[33mGET /static/index/assets/css/kit-free.css.map HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:36] "[33mGET /static/index/assets/js/_site_kit_free/assets/js/kit-free.js.map HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:39] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:20:40] "[37mGET /dashboard/treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:20:40] "[33mGET /dashboard/static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:40] "[33mGET /dashboard/static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:40] "[33mGET /dashboard/static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:40] "[33mGET /dashboard/static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:40] "[33mGET /dashboard/static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:40] "[33mGET /dashboard/static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:41] "[33mGET /dashboard/static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:41] "[33mGET /dashboard/static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:41] "[33mGET /dashboard/static/dashboard/assets/img/theme/bootstrap.jpg HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:41] "[33mGET /dashboard/static/dashboard/assets/img/theme/vue.jpg HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:41] "[33mGET /dashboard/static/dashboard/assets/img/theme/angular.jpg HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:41] "[33mGET /dashboard/static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:41] "[33mGET /dashboard/static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:41] "[33mGET /dashboard/static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:41] "[33mGET /dashboard/static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:41] "[33mGET /dashboard/static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 404 -
+130.64.25.63 - - [06/Mar/2020 21:20:41] "[33mGET /dashboard/static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 404 -
+ * Detected change in '/home/ubuntu/AutovexWeb/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 273-178-088
+130.64.25.63 - - [06/Mar/2020 21:22:28] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:22:29] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:22:29] "[37mGET /static/dashboard/assets/img/theme/bootstrap.jpg HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:22:29] "[37mGET /static/dashboard/assets/img/theme/angular.jpg HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:22:29] "[37mGET /static/dashboard/assets/img/theme/vue.jpg HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:22:51] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:22:51] "[37mGET / HTTP/1.1[0m" 200 -

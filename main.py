@@ -10,7 +10,7 @@ def index():
 def dashboard():
 	return render_template("dashboard.html")
 
-@app.route("/dashboard/treatments")
+@app.route("/treatments")
 def treatements():
 	return render_template("treatments.html")
 
