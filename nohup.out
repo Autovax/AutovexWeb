@@ -40,3 +40,1303 @@
 130.64.25.63 - - [06/Mar/2020 21:22:29] "[37mGET /static/dashboard/assets/img/theme/vue.jpg HTTP/1.1[0m" 200 -
 130.64.25.63 - - [06/Mar/2020 21:22:51] "[37mGET / HTTP/1.1[0m" 200 -
 130.64.25.63 - - [06/Mar/2020 21:22:51] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:51:21] "[35m[1mGET / HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/AutovexWeb/main.py", line 7, in index
+    
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 117, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+130.64.25.63 - - [06/Mar/2020 21:51:21] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:51:21] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:51:21] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:51:21] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:51:22] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:51:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/AutovexWeb/main.py", line 7, in index
+    
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 117, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+130.64.25.63 - - [06/Mar/2020 21:51:26] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:51:26] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:51:26] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:51:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/AutovexWeb/main.py", line 7, in index
+    
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 117, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+130.64.25.63 - - [06/Mar/2020 21:51:26] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:51:26] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:51:26] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:51:26] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:51:26] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 273-178-088
+130.64.25.63 - - [06/Mar/2020 21:51:56] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 21:52:21] "[37mGET / HTTP/1.1[0m" 200 -
+34.233.119.208 - - [06/Mar/2020 21:53:07] "[37mGET / HTTP/1.1[0m" 200 -
+34.233.119.208 - - [06/Mar/2020 21:53:07] "[37mGET /static/index/assets/img/apple-icon.png HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET / HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET /static/index/assets/css/font-awesome.css HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET /static/index/assets/img/brand/blue.png HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET /static/index/assets/css/argon-design-system.css?v=1.2.0 HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET /static/index/assets/css/nucleo-icons.css HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET /static/index/assets/css/app.css HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET /static/index/assets/css/nucleo-svg.css HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET /static/index/assets/js/core/jquery.min.js HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET /static/index/assets/js/core/popper.min.js HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET /static/index/assets/js/plugins/nouislider.min.js HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET /static/index/assets/js/plugins/bootstrap-switch.js HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET /static/index/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET /static/index/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET /static/index/assets/js/plugins/moment.min.js HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET /static/index/assets/js/plugins/datetimepicker.js HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET /static/index/assets/js/plugins/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:53:59] "[37mGET /static/index/assets/js/argon-design-system.min.js?v=1.2.0 HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:00] "[37mGET /static/index/assets/img/favicon.png HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:00] "[37mGET /static/index/assets/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:10] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:11] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:11] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:11] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 200 -
+73.4.142.236 - - [06/Mar/2020 21:54:11] "[37mGET /static/dashboard/assets/img/brand/favicon.png HTTP/1.1[0m" 200 -
+200.196.38.48 - - [06/Mar/2020 21:55:47] "[37mGET / HTTP/1.1[0m" 200 -
+209.17.97.82 - - [06/Mar/2020 22:16:52] "[37mGET / HTTP/1.0[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 22:17:28] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 22:17:32] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 22:17:34] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 22:17:51] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [06/Mar/2020 22:17:53] "[37mGET /treatments HTTP/1.1[0m" 200 -
+141.126.203.100 - - [06/Mar/2020 22:20:56] "[37mGET /treatments HTTP/1.1[0m" 200 -
+95.154.77.69 - - [06/Mar/2020 22:57:04] "[37mGET / HTTP/1.1[0m" 200 -
+5.101.0.209 - - [06/Mar/2020 23:41:03] "[33mGET /solr/admin/info/system?wt=json HTTP/1.1[0m" 404 -
+176.117.190.185 - - [06/Mar/2020 23:46:46] "[37mGET / HTTP/1.1[0m" 200 -
+5.101.0.209 - - [06/Mar/2020 23:53:23] "[37mGET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.1[0m" 200 -
+5.101.0.209 - - [06/Mar/2020 23:53:24] "[37mGET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1[0m" 200 -
+5.101.0.209 - - [06/Mar/2020 23:57:11] "[33mGET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:10:54] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:10:56] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:11:03] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:11:06] "[33mGET /index.html HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:12:43] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:12:45] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:12:47] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:12:49] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:12:51] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:12:53] "[37mGET / HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:12:53] "[37mGET /static/index/assets/css/nucleo-icons.css HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:12:54] "[37mGET / HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:12:54] "[37mGET /static/index/assets/css/nucleo-svg.css HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:12:55] "[37mGET /static/index/assets/css/font-awesome.css HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:12:55] "[37mGET /static/index/assets/img/brand/blue.png HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:12:55] "[37mGET /static/index/assets/css/argon-design-system.css?v=1.2.0 HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:12:55] "[37mGET /static/index/assets/css/app.css HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:12:55] "[37mGET /static/index/assets/js/core/jquery.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:12:55] "[37mGET /static/index/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:12:55] "[37mGET /static/index/assets/js/core/popper.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:12:56] "[37mGET /static/index/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:12:56] "[37mGET /static/index/assets/js/plugins/bootstrap-switch.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:12:57] "[37mGET /static/index/assets/js/plugins/nouislider.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:12:58] "[37mGET /static/index/assets/js/plugins/moment.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:12:58] "[37mGET /static/index/assets/js/plugins/datetimepicker.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:12:59] "[37mGET /static/index/assets/js/plugins/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:13:00] "[37mGET /static/index/assets/js/argon-design-system.min.js?v=1.2.0 HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:13:09] "[37mGET /static/index/assets/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:13:10] "[37mGET /static/index/assets/img/favicon.png HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 00:13:10] "[37mGET /static/index/assets/img/apple-icon.png HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:14:51] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:14:53] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:14:55] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:15:00] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:15:14] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:15:15] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:15:17] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:15:21] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:15:21] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:16:14] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:16:15] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:16:15] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:16:16] "[33mGET /dashboard.html HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:16:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:16:42] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:16:44] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:16:45] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:16:46] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:16:46] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:16:47] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:16:47] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:17:07] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:17:09] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:17:11] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:17:12] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:17:12] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:17:14] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:17:15] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:17:56] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:18:17] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:18:18] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:18:19] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:18:21] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:18:21] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:18:29] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:18:30] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:18:33] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:18:34] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:18:36] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:18:37] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:18:37] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:18:38] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:18:43] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:18:47] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:18:47] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:19:23] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:19:23] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:19:23] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:19:24] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:19:24] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:19:24] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:19:25] "[33mGET /static/index/assets/css/kit-free.css.map HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:19:25] "[33mGET /static/index/assets/js/_site_kit_free/assets/js/kit-free.js.map HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:19:29] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:19:31] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:19:31] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+130.64.25.63 - - [07/Mar/2020 00:19:31] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:19:32] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:19:36] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 00:19:39] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+185.56.157.46 - - [07/Mar/2020 00:37:58] "[37mGET / HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:03] "[37mGET / HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:05] "[37mGET /static/index/assets/css/nucleo-svg.css HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:05] "[37mGET /static/index/assets/css/font-awesome.css HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:05] "[37mGET /static/index/assets/css/nucleo-icons.css HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:05] "[37mGET /static/index/assets/css/argon-design-system.css?v=1.2.0 HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:05] "[37mGET /static/index/assets/img/brand/blue.png HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:05] "[37mGET /static/index/assets/css/app.css HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:05] "[37mGET /static/index/assets/js/core/jquery.min.js HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:06] "[37mGET /static/index/assets/js/core/popper.min.js HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:06] "[37mGET /static/index/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:06] "[37mGET /static/index/assets/js/plugins/moment.min.js HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:06] "[37mGET /static/index/assets/js/plugins/nouislider.min.js HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:06] "[37mGET /static/index/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:06] "[37mGET /static/index/assets/js/plugins/datetimepicker.js HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:06] "[37mGET /static/index/assets/js/plugins/bootstrap-switch.js HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:07] "[37mGET /static/index/assets/js/plugins/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:07] "[37mGET /static/index/assets/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:07] "[37mGET /static/index/assets/js/argon-design-system.min.js?v=1.2.0 HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:08] "[37mGET /static/index/assets/img/apple-icon.png HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:08] "[37mGET /static/index/assets/img/favicon.png HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:28] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:28] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:28] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:28] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:29] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:29] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:29] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:30] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:30] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:30] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:30] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:30] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:30] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:30] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:31] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:31] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:31] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:31] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:32] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+219.75.75.90 - - [07/Mar/2020 00:42:32] "[37mGET /static/dashboard/assets/img/brand/favicon.png HTTP/1.1[0m" 200 -
+119.237.212.231 - - [07/Mar/2020 01:03:43] "[37mGET / HTTP/1.0[0m" 200 -
+46.98.122.194 - - [07/Mar/2020 01:16:13] "[37mGET / HTTP/1.1[0m" 200 -
+178.166.19.13 - - [07/Mar/2020 01:16:19] "[37mGET / HTTP/1.1[0m" 200 -
+44.225.84.206 - - [07/Mar/2020 01:22:09] "[37mGET http://example.com/ HTTP/1.1[0m" 200 -
+44.225.84.206 - - [07/Mar/2020 01:22:09] "[37mGET http://169.254.169.254/ HTTP/1.1[0m" 200 -
+44.225.84.206 - - [07/Mar/2020 01:22:09] "[37mGET http://[::ffff:a9fe:a9fe]/ HTTP/1.1[0m" 200 -
+44.225.84.206 - - [07/Mar/2020 01:22:10] "[33mGET http://169.254.169.254/latest/dynamic/instance-identity/document HTTP/1.1[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 01:22:10] "[33mGET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document HTTP/1.1[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 01:22:10] "[37mGET / HTTP/1.1[0m" 200 -
+44.225.84.206 - - [07/Mar/2020 01:22:10] "[37mGET / HTTP/1.1[0m" 200 -
+44.225.84.206 - - [07/Mar/2020 01:22:10] "[37mGET / HTTP/1.1[0m" 200 -
+44.225.84.206 - - [07/Mar/2020 01:22:10] "[33mGET /latest/dynamic/instance-identity/document HTTP/1.1[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 01:22:11] "[33mGET /latest/dynamic/instance-identity/document HTTP/1.1[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 01:22:11] "[33mCONNECT 54.166.13.51:80 HTTP/1.0[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 01:22:11] "[33mCONNECT 54.166.13.51:80 HTTP/1.0[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 01:22:11] "[33mCONNECT 54.166.13.51:80 HTTP/1.0[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 01:22:11] "[33mCONNECT 54.166.13.51:80 HTTP/1.0[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 01:22:12] "[33mCONNECT 54.166.13.51:80 HTTP/1.0[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 01:22:12] code 400, message Bad request version ('À(À$À\x14À')
+44.225.84.206 - - [07/Mar/2020 01:22:12] "[35m[1m Ò  ÎnúC²Ôi~F	 Uçÿn I^·®»Ç¯´áÎð  bÀ0À,À/À+  À2À.À1À- ¥ ¡ ¤  À(À$ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+44.225.84.206 - - [07/Mar/2020 01:22:12] code 400, message Bad request version ('À(À$À\x14À')
+44.225.84.206 - - [07/Mar/2020 01:22:12] "[35m[1m Ò  ÎÇ&FÔr>$ô$¦ÿ¶þfö+ù¶³½í  bÀ0À,À/À+  À2À.À1À- ¥ ¡ ¤  À(À$ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+44.225.84.206 - - [07/Mar/2020 01:22:12] code 400, message Bad request version ('À(À$À\x14À')
+44.225.84.206 - - [07/Mar/2020 01:22:12] "[35m[1m Ò  ÎÛàOÀJ(:¾°«í°¦«P&µGÒtÕ,®ÛÛõR  bÀ0À,À/À+  À2À.À1À- ¥ ¡ ¤  À(À$ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+44.225.84.206 - - [07/Mar/2020 01:22:12] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ò\x01\x00\x00Î\x03\x03')
+44.225.84.206 - - [07/Mar/2020 01:22:12] "[35m[1m Ò  Î k3gt^[0m" HTTPStatus.BAD_REQUEST -
+44.225.84.206 - - [07/Mar/2020 01:22:12] code 400, message Bad request version ('À(À$À\x14À')
+44.225.84.206 - - [07/Mar/2020 01:22:12] "[35m[1m Ò  Îv~âT%½Ë|å}.ÖÀM`6h«bQ58ýW/  bÀ0À,À/À+  À2À.À1À- ¥ ¡ ¤  À(À$ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+212.83.171.224 - - [07/Mar/2020 01:27:45] "[37mGET / HTTP/1.1[0m" 200 -
+46.101.171.183 - - [07/Mar/2020 01:50:53] "[37mGET / HTTP/1.0[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 02:06:51] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 02:08:22] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 02:08:34] "[37mGET /treatments HTTP/1.1[0m" 200 -
+128.14.134.134 - - [07/Mar/2020 02:16:20] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 02:39:09] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 02:39:12] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 02:39:14] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 02:40:06] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 02:58:03] "[37mGET / HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 03:11:20] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 03:11:34] "[37mGET /treatments HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 03:15:07] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+130.64.25.63 - - [07/Mar/2020 03:15:08] "[37mGET / HTTP/1.1[0m" 200 -
+163.177.112.30 - - [07/Mar/2020 03:20:02] "[33mGET /TP/public/index.php HTTP/1.1[0m" 404 -
+163.177.112.30 - - [07/Mar/2020 03:20:03] "[37mGET / HTTP/1.1[0m" 200 -
+5.22.154.47 - - [07/Mar/2020 03:36:06] "[37mGET / HTTP/1.1[0m" 200 -
+94.140.114.53 - - [07/Mar/2020 04:06:41] "[37mGET / HTTP/1.0[0m" 200 -
+94.70.160.195 - - [07/Mar/2020 04:14:36] "[37mGET / HTTP/1.1[0m" 200 -
+79.157.180.188 - - [07/Mar/2020 04:28:09] "[37mGET / HTTP/1.1[0m" 200 -
+178.166.27.80 - - [07/Mar/2020 05:02:29] "[37mGET / HTTP/1.1[0m" 200 -
+222.190.151.98 - - [07/Mar/2020 05:13:02] "[33mGET /TP/public/index.php HTTP/1.1[0m" 404 -
+222.190.151.98 - - [07/Mar/2020 05:13:05] "[33mGET /TP/index.php HTTP/1.1[0m" 404 -
+222.190.151.98 - - [07/Mar/2020 05:13:05] "[33mGET /thinkphp/html/public/index.php HTTP/1.1[0m" 404 -
+222.190.151.98 - - [07/Mar/2020 05:13:07] "[33mGET /html/public/index.php HTTP/1.1[0m" 404 -
+222.190.151.98 - - [07/Mar/2020 05:13:12] "[37mGET / HTTP/1.1[0m" 200 -
+192.241.224.192 - - [07/Mar/2020 05:21:40] "[33mGET /hudson HTTP/1.1[0m" 404 -
+79.43.106.113 - - [07/Mar/2020 06:36:14] "[37mGET / HTTP/1.1[0m" 200 -
+115.171.196.34 - - [07/Mar/2020 06:36:36] "[37mGET / HTTP/1.1[0m" 200 -
+115.171.196.34 - - [07/Mar/2020 06:36:38] "[37mGET /static/index/assets/css/font-awesome.css HTTP/1.1[0m" 200 -
+115.171.196.34 - - [07/Mar/2020 06:36:39] "[37mGET /static/index/assets/css/app.css HTTP/1.1[0m" 200 -
+115.171.196.34 - - [07/Mar/2020 06:36:39] "[37mGET /static/index/assets/css/nucleo-svg.css HTTP/1.1[0m" 200 -
+115.171.196.34 - - [07/Mar/2020 06:36:39] "[37mGET /static/index/assets/css/nucleo-icons.css HTTP/1.1[0m" 200 -
+115.171.196.34 - - [07/Mar/2020 06:36:40] "[37mGET /static/index/assets/js/core/jquery.min.js HTTP/1.1[0m" 200 -
+115.171.196.34 - - [07/Mar/2020 06:36:40] "[37mGET /static/index/assets/js/core/popper.min.js HTTP/1.1[0m" 200 -
+115.171.196.34 - - [07/Mar/2020 06:36:40] "[37mGET /static/index/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1[0m" 200 -
+115.171.196.34 - - [07/Mar/2020 06:36:41] "[37mGET /static/index/assets/js/plugins/bootstrap-switch.js HTTP/1.1[0m" 200 -
+115.171.196.34 - - [07/Mar/2020 06:36:41] "[37mGET /static/index/assets/js/plugins/nouislider.min.js HTTP/1.1[0m" 200 -
+115.171.196.34 - - [07/Mar/2020 06:36:41] "[37mGET /static/index/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 200 -
+115.171.196.34 - - [07/Mar/2020 06:36:42] "[37mGET /static/index/assets/js/plugins/datetimepicker.js HTTP/1.1[0m" 200 -
+115.171.196.34 - - [07/Mar/2020 06:36:42] "[37mGET /static/index/assets/js/plugins/moment.min.js HTTP/1.1[0m" 200 -
+115.171.196.34 - - [07/Mar/2020 06:36:43] "[37mGET /static/index/assets/js/plugins/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:28] "[37mGET / HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:31] "[37mGET /static/index/assets/css/nucleo-icons.css HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:39] "[37mGET /static/index/assets/js/core/jquery.min.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:39] "[37mGET /static/index/assets/css/app.css HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:39] "[37mGET /static/index/assets/css/argon-design-system.css?v=1.2.0 HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:39] "[37mGET /static/index/assets/css/font-awesome.css HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:39] "[37mGET /static/index/assets/css/nucleo-svg.css HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:43] "[37mGET / HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:43] "[37mGET /static/index/assets/css/nucleo-icons.css HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:44] "[37mGET /static/index/assets/css/nucleo-svg.css HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:44] "[37mGET /static/index/assets/css/font-awesome.css HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:44] "[37mGET /static/index/assets/css/argon-design-system.css?v=1.2.0 HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:44] "[37mGET /static/index/assets/css/app.css HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:45] "[37mGET /static/index/assets/js/core/jquery.min.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:45] "[37mGET /static/index/assets/img/brand/blue.png HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:46] "[37mGET /static/index/assets/js/core/popper.min.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:46] "[37mGET /static/index/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:46] "[37mGET /static/index/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:46] "[37mGET /static/index/assets/js/plugins/bootstrap-switch.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:46] "[37mGET /static/index/assets/js/plugins/nouislider.min.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:47] "[37mGET /static/index/assets/js/plugins/moment.min.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:47] "[37mGET /static/index/assets/js/plugins/datetimepicker.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:47] "[37mGET /static/index/assets/js/plugins/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:47] "[37mGET /static/index/assets/js/argon-design-system.min.js?v=1.2.0 HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:48] "[37mGET /static/index/assets/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:10:50] "[37mGET /static/index/assets/img/favicon.png HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:32] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:32] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:33] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:33] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:33] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:35] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:35] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:35] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:35] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:35] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:36] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:36] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:36] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:39] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:40] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:40] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:41] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:46] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:46] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:11:54] "[37mGET /static/dashboard/assets/img/brand/favicon.png HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:24:01] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:24:10] "[37mGET /treatments HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:24:11] "[37mGET /static/dashboard/assets/img/theme/bootstrap.jpg HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:24:11] "[37mGET /static/dashboard/assets/img/theme/angular.jpg HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 08:24:11] "[37mGET /static/dashboard/assets/img/theme/vue.jpg HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:04:53] "[37mGET / HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:04:54] "[37mGET /static/index/assets/css/nucleo-icons.css HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:04:56] "[37mGET /static/index/assets/css/nucleo-svg.css HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:04:56] "[37mGET /static/index/assets/css/font-awesome.css HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:04:56] "[37mGET /static/index/assets/css/argon-design-system.css?v=1.2.0 HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:04:57] "[37mGET /static/index/assets/css/app.css HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:05:39] "[37mGET /static/index/assets/js/core/jquery.min.js HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:05:42] "[37mGET /static/index/assets/js/core/popper.min.js HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:05:43] "[37mGET /static/index/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:05:52] "[37mGET /static/index/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:05:53] "[37mGET /static/index/assets/js/plugins/bootstrap-switch.js HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:05:53] "[37mGET /static/index/assets/js/plugins/nouislider.min.js HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:05:54] "[37mGET /static/index/assets/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:05:54] "[37mGET /static/index/assets/img/brand/blue.png HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:05:55] "[37mGET /static/index/assets/js/plugins/moment.min.js HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:05:55] "[37mGET /static/index/assets/js/plugins/datetimepicker.js HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:05:55] "[37mGET /static/index/assets/js/plugins/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:05:58] "[37mGET /static/index/assets/js/argon-design-system.min.js?v=1.2.0 HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:06:52] "[37mGET /static/index/assets/img/favicon.png HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:08:41] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:08:41] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:08:41] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:08:41] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:08:42] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:08:43] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:08:43] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:08:43] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:08:56] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:08:58] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:09:03] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:09:04] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:09:06] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:09:08] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:09:10] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:09:12] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:09:15] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:09:18] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:10:13] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+1.203.147.179 - - [07/Mar/2020 09:10:35] "[37mGET /static/dashboard/assets/img/brand/favicon.png HTTP/1.1[0m" 200 -
+190.25.45.189 - - [07/Mar/2020 09:31:50] "[37mGET / HTTP/1.1[0m" 200 -
+159.65.11.106 - - [07/Mar/2020 11:26:26] "[37mGET / HTTP/1.0[0m" 200 -
+181.114.133.129 - - [07/Mar/2020 12:06:17] "[37mGET / HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:05] "[37mGET / HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:05] "[36mGET /static/index/assets/css/nucleo-svg.css HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:05] "[36mGET /static/index/assets/css/font-awesome.css HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:05] "[36mGET /static/index/assets/css/nucleo-icons.css HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:06] "[36mGET /static/index/assets/css/app.css HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:06] "[36mGET /static/index/assets/css/argon-design-system.css?v=1.2.0 HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:06] "[36mGET /static/index/assets/img/brand/blue.png HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:06] "[36mGET /static/index/assets/js/core/jquery.min.js HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:07] "[36mGET /static/index/assets/js/core/popper.min.js HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:07] "[36mGET /static/index/assets/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:07] "[36mGET /static/index/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:07] "[36mGET /static/index/assets/js/plugins/bootstrap-switch.js HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:07] "[36mGET /static/index/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:07] "[36mGET /static/index/assets/js/plugins/nouislider.min.js HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:07] "[36mGET /static/index/assets/js/plugins/moment.min.js HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:08] "[36mGET /static/index/assets/js/plugins/datetimepicker.js HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:08] "[36mGET /static/index/assets/js/plugins/bootstrap-datepicker.min.js HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:08] "[36mGET /static/index/assets/js/argon-design-system.min.js?v=1.2.0 HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:09] "[36mGET /static/index/assets/img/favicon.png HTTP/1.1[0m" 304 -
+27.34.13.181 - - [07/Mar/2020 12:24:09] "[37mGET /static/index/assets/img/apple-icon.png HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:33] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:33] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:34] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:34] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:34] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:34] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:34] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:34] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:35] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:35] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:36] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:36] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:36] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:36] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:36] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:37] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:37] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:37] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:37] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:39] "[37mGET /static/dashboard/assets/img/brand/favicon.png HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:47] "[37mGET /treatments HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:48] "[37mGET /static/dashboard/assets/img/theme/bootstrap.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:48] "[37mGET /static/dashboard/assets/img/theme/angular.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:24:48] "[37mGET /static/dashboard/assets/img/theme/vue.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:25:03] "[37mGET /treatments HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:25:03] "[37mGET /treatments HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 12:25:25] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+44.225.84.206 - - [07/Mar/2020 13:39:37] "[37mGET http://example.com/ HTTP/1.1[0m" 200 -
+44.225.84.206 - - [07/Mar/2020 13:39:38] "[37mGET http://169.254.169.254/ HTTP/1.1[0m" 200 -
+44.225.84.206 - - [07/Mar/2020 13:39:38] "[37mGET http://[::ffff:a9fe:a9fe]/ HTTP/1.1[0m" 200 -
+44.225.84.206 - - [07/Mar/2020 13:39:38] "[33mGET http://169.254.169.254/latest/dynamic/instance-identity/document HTTP/1.1[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 13:39:38] "[33mGET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document HTTP/1.1[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 13:39:38] "[37mGET / HTTP/1.1[0m" 200 -
+44.225.84.206 - - [07/Mar/2020 13:39:38] "[37mGET / HTTP/1.1[0m" 200 -
+44.225.84.206 - - [07/Mar/2020 13:39:38] "[37mGET / HTTP/1.1[0m" 200 -
+44.225.84.206 - - [07/Mar/2020 13:39:39] "[33mGET /latest/dynamic/instance-identity/document HTTP/1.1[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 13:39:39] "[33mGET /latest/dynamic/instance-identity/document HTTP/1.1[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 13:39:39] "[33mCONNECT 54.166.13.51:80 HTTP/1.0[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 13:39:39] "[33mCONNECT 54.166.13.51:80 HTTP/1.0[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 13:39:39] "[33mCONNECT 54.166.13.51:80 HTTP/1.0[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 13:39:40] "[33mCONNECT 54.166.13.51:80 HTTP/1.0[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 13:39:40] "[33mCONNECT 54.166.13.51:80 HTTP/1.0[0m" 404 -
+44.225.84.206 - - [07/Mar/2020 13:39:40] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ò\x01\x00\x00Î\x03\x03Ãßúæ£\x14<Ü\x94ê|\x800ë\x08ê\xad\x90U;Ö²¯y~\x1a\x8c½µGÚJ\x00\x00bÀ0À,À/À+\x00\x9f\x00\x9eÀ2À.À1À-\x00¥\x00¡\x00¤\x00')
+44.225.84.206 - - [07/Mar/2020 13:39:40] "[35m[1m Ò  ÎÃßúæ£<Üê|0ëê­U;Ö²¯y~½µGÚJ  bÀ0À,À/À+  À2À.À1À- ¥ ¡ ¤  À(À$ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+44.225.84.206 - - [07/Mar/2020 13:39:40] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ò\x01\x00\x00Î\x03\x03ëv¤0xH\x9ftXZ®ÞY(fÐ\x8e\x1aß\x10³¨=\x13é=u\x9cÍ·?*\x00\x00bÀ0À,À/À+\x00\x9f\x00\x9eÀ2À.À1À-\x00¥\x00¡\x00¤\x00')
+44.225.84.206 - - [07/Mar/2020 13:39:40] "[35m[1m Ò  Îëv¤0xHtXZ®ÞY(fÐß³¨=é=uÍ·?*  bÀ0À,À/À+  À2À.À1À- ¥ ¡ ¤  À(À$ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+44.225.84.206 - - [07/Mar/2020 13:39:40] code 400, message Bad request version ('À(À$À\x14À')
+44.225.84.206 - - [07/Mar/2020 13:39:40] "[35m[1m Ò  ÎeeÏ­3bËsgh1£!»Bó÷ZÅð»øVîò  bÀ0À,À/À+  À2À.À1À- ¥ ¡ ¤  À(À$ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+44.225.84.206 - - [07/Mar/2020 13:39:41] code 400, message Bad request version ('À(À$À\x14À')
+44.225.84.206 - - [07/Mar/2020 13:39:41] "[35m[1m Ò  Î­ÂØÞG3ààº`´'Òõv®nóNS±§·Øcr  bÀ0À,À/À+  À2À.À1À- ¥ ¡ ¤  À(À$ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+44.225.84.206 - - [07/Mar/2020 13:39:41] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ò\x01\x00\x00Î\x03\x03Ò-\x19\x12×\x9cí¶ð\x0fÏ}¥\x86\x86Ì\x08{x\x14n*ÄÂ\x16A\x9e4z\x9ac\x13\x00\x00bÀ0À,À/À+\x00\x9f\x00\x9eÀ2À.À1À-\x00¥\x00¡\x00¤\x00')
+44.225.84.206 - - [07/Mar/2020 13:39:41] "[35m[1m Ò  ÎÒ-×í¶ðÏ}¥Ì{xn*ÄÂA4zc  bÀ0À,À/À+  À2À.À1À- ¥ ¡ ¤  À(À$ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+59.127.180.60 - - [07/Mar/2020 13:48:30] "[37mGET / HTTP/1.1[0m" 200 -
+195.174.108.94 - - [07/Mar/2020 14:05:07] "[37mGET / HTTP/1.1[0m" 200 -
+195.174.108.94 - - [07/Mar/2020 14:05:11] "[37mGET / HTTP/1.1[0m" 200 -
+88.200.223.190 - - [07/Mar/2020 14:33:55] "[37mGET / HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 15:07:02] "[37mGET / HTTP/1.1[0m" 200 -
+3.93.17.194 - - [07/Mar/2020 15:20:43] "[37mGET / HTTP/1.1[0m" 200 -
+3.93.17.194 - - [07/Mar/2020 15:20:43] "[37mGET /static/index/assets/img/apple-icon.png HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:14] "[37mGET / HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:14] "[37mGET /static/index/assets/css/nucleo-icons.css HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:14] "[37mGET /static/index/assets/css/nucleo-svg.css HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:14] "[37mGET /static/index/assets/css/font-awesome.css HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:14] "[37mGET /static/index/assets/css/argon-design-system.css?v=1.2.0 HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:14] "[37mGET /static/index/assets/css/app.css HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:14] "[37mGET /static/index/assets/img/brand/blue.png HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:14] "[37mGET /static/index/assets/js/core/jquery.min.js HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:14] "[37mGET /static/index/assets/js/core/popper.min.js HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:14] "[37mGET /static/index/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:14] "[37mGET /static/index/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:14] "[37mGET /static/index/assets/js/plugins/bootstrap-switch.js HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:15] "[37mGET /static/index/assets/js/plugins/nouislider.min.js HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:15] "[37mGET /static/index/assets/js/plugins/moment.min.js HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:15] "[37mGET /static/index/assets/js/plugins/datetimepicker.js HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:15] "[37mGET /static/index/assets/js/plugins/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:15] "[37mGET /static/index/assets/js/argon-design-system.min.js?v=1.2.0 HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:15] "[37mGET /static/index/assets/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:32:15] "[37mGET /static/index/assets/img/favicon.png HTTP/1.1[0m" 200 -
+190.226.32.170 - - [07/Mar/2020 15:33:39] "[37mGET / HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:14] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:15] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:16] "[37mGET /static/dashboard/assets/img/brand/favicon.png HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:37] "[37mGET /treatments HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:37] "[37mGET /static/dashboard/assets/img/theme/bootstrap.jpg HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:37] "[37mGET /static/dashboard/assets/img/theme/angular.jpg HTTP/1.1[0m" 200 -
+73.126.2.192 - - [07/Mar/2020 15:34:37] "[37mGET /static/dashboard/assets/img/theme/vue.jpg HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:49:46] "[37mGET / HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:49:48] "[37mGET /static/index/assets/css/nucleo-icons.css HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:49:48] "[37mGET /static/index/assets/css/nucleo-svg.css HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:49:48] "[37mGET /static/index/assets/css/font-awesome.css HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:49:48] "[37mGET /static/index/assets/css/argon-design-system.css?v=1.2.0 HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:49:48] "[37mGET /static/index/assets/css/app.css HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:49:49] "[37mGET /static/index/assets/js/core/jquery.min.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:49:49] "[37mGET /static/index/assets/img/brand/blue.png HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:49:51] "[37mGET /static/index/assets/js/core/popper.min.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:49:51] "[37mGET /static/index/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:49:52] "[37mGET /static/index/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:49:53] "[37mGET /static/index/assets/js/plugins/bootstrap-switch.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:49:54] "[37mGET /static/index/assets/js/plugins/nouislider.min.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:49:54] "[37mGET /static/index/assets/js/plugins/moment.min.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:49:55] "[37mGET /static/index/assets/js/plugins/datetimepicker.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:49:58] "[37mGET /static/index/assets/js/plugins/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:50:00] "[37mGET /static/index/assets/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:50:01] "[37mGET /static/index/assets/js/argon-design-system.min.js?v=1.2.0 HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:50:35] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:50:35] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:50:43] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:50:43] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:50:43] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:50:43] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:50:45] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:50:46] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:50:49] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:50:58] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:51:07] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:51:10] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:51:11] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:51:13] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:51:14] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:51:15] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:51:16] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:51:46] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:51:48] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:52:09] "[37mGET /static/dashboard/assets/img/brand/favicon.png HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:52:25] "[37mGET /static/index/assets/js/plugins/datetimepicker.js HTTP/1.1[0m" 200 -
+111.44.239.20 - - [07/Mar/2020 15:53:41] "[37mGET /static/index/assets/img/favicon.png HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 15:54:44] "[37mGET / HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 15:55:29] "[37mGET / HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 15:55:31] "[37mGET /static/index/assets/img/apple-icon.png HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 15:55:35] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 15:55:42] "[37mGET /treatments HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 15:55:57] "[37mGET /treatments HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 15:56:13] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 15:56:37] "[37mGET /treatments HTTP/1.1[0m" 200 -
+27.114.169.10 - - [07/Mar/2020 15:56:42] "[37mGET /treatments HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:13:29] "[37mGET / HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:13:32] "[37mGET /static/index/assets/img/apple-icon.png HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:13:34] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET / HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET /static/index/assets/css/nucleo-svg.css HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET /static/index/assets/css/nucleo-icons.css HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET /static/index/assets/css/argon-design-system.css?v=1.2.0 HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET /static/index/assets/css/font-awesome.css HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET /static/index/assets/js/core/jquery.min.js HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET /static/index/assets/css/app.css HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET /static/index/assets/js/core/popper.min.js HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET /static/index/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET /static/index/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET /static/index/assets/js/plugins/bootstrap-switch.js HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET /static/index/assets/js/plugins/nouislider.min.js HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET /static/index/assets/js/plugins/moment.min.js HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET /static/index/assets/js/plugins/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET /static/index/assets/img/brand/blue.png HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET /static/index/assets/js/argon-design-system.min.js?v=1.2.0 HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:36] "[37mGET /static/index/assets/js/plugins/datetimepicker.js HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:37] "[37mGET /static/index/assets/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+38.122.127.226 - - [07/Mar/2020 16:19:43] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:10] "[37mGET / HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:11] "[37mGET /static/index/assets/css/nucleo-icons.css HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:11] "[37mGET /static/index/assets/css/app.css HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:11] "[37mGET /static/index/assets/css/font-awesome.css HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:11] "[37mGET /static/index/assets/img/brand/blue.png HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:11] "[37mGET /static/index/assets/css/nucleo-svg.css HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:11] "[37mGET /static/index/assets/css/argon-design-system.css?v=1.2.0 HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:12] "[37mGET /static/index/assets/js/core/jquery.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:12] "[37mGET /static/index/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:12] "[37mGET /static/index/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:12] "[37mGET /static/index/assets/js/core/popper.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:13] "[37mGET /static/index/assets/js/plugins/bootstrap-switch.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:14] "[37mGET /static/index/assets/js/plugins/nouislider.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:14] "[37mGET /static/index/assets/js/plugins/moment.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:15] "[37mGET /static/index/assets/js/plugins/datetimepicker.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:15] "[37mGET /static/index/assets/js/argon-design-system.min.js?v=1.2.0 HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:15] "[37mGET /static/index/assets/js/plugins/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:20] "[37mGET /static/index/assets/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:21] "[37mGET /static/index/assets/img/favicon.png HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:22] "[37mGET /static/index/assets/img/apple-icon.png HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:24] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:25] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:25] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:25] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:25] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:26] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:26] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:26] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:26] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:28] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:32] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:35] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 16:20:36] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+36.73.18.35 - - [07/Mar/2020 17:20:31] "[37mGET / HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:35] "[37mGET / HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:38] "[37mGET /static/index/assets/img/apple-icon.png HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:38] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:39] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:39] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:39] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:39] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:39] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:39] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:41] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:41] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:41] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:41] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:41] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:41] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:41] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:41] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:41] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:42] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:42] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:44] "[37mGET /static/dashboard/assets/img/brand/favicon.png HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:44] "[37mGET /treatments HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:46] "[37mGET /static/dashboard/assets/img/theme/bootstrap.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:46] "[37mGET /static/dashboard/assets/img/theme/angular.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:33:46] "[37mGET /static/dashboard/assets/img/theme/vue.jpg HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:34:04] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+27.34.13.181 - - [07/Mar/2020 17:34:06] "[37mGET /treatments HTTP/1.1[0m" 200 -
+176.122.250.34 - - [07/Mar/2020 17:41:40] "[37mGET / HTTP/1.1[0m" 200 -
+189.78.121.79 - - [07/Mar/2020 17:47:25] "[37mGET / HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:33] "[37mOPTIONS / HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:33] "[37mGET / HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:34] "[37mGET / HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:34] "[37mGET /static/index/assets/img/brand/blue.png HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:34] "[37mGET /static/index/assets/css/nucleo-icons.css HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:34] "[37mGET /static/index/assets/css/nucleo-svg.css HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:34] "[37mGET /static/index/assets/css/argon-design-system.css?v=1.2.0 HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:34] "[37mGET /static/index/assets/css/font-awesome.css HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:34] "[37mGET /static/index/assets/css/app.css HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:34] "[37mGET /static/index/assets/js/core/jquery.min.js HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:34] "[37mGET /static/index/assets/js/core/popper.min.js HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:35] "[37mGET /static/index/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:35] "[37mGET /static/index/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:35] "[37mGET /static/index/assets/js/plugins/bootstrap-switch.js HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:35] "[37mGET /static/index/assets/js/plugins/nouislider.min.js HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:35] "[37mGET /static/index/assets/js/plugins/moment.min.js HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:35] "[37mGET /static/index/assets/js/plugins/datetimepicker.js HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:35] "[37mGET /static/index/assets/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:35] "[37mGET /static/index/assets/js/plugins/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:35] "[37mGET /static/index/assets/js/argon-design-system.min.js?v=1.2.0 HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:21:35] "[37mGET /static/index/assets/img/favicon.png HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:08] "[37mOPTIONS / HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:08] "[37mGET / HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:09] "[37mGET / HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:11] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:11] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:11] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:11] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:11] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:11] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:11] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:11] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:11] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:11] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:11] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:11] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:11] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:11] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:11] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:11] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:12] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:12] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:12] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+174.62.125.153 - - [07/Mar/2020 18:41:12] "[37mGET /static/dashboard/assets/img/brand/favicon.png HTTP/1.1[0m" 200 -
+209.17.96.242 - - [07/Mar/2020 19:16:08] "[37mGET / HTTP/1.0[0m" 200 -
+82.221.105.6 - - [07/Mar/2020 19:46:02] "[37mGET / HTTP/1.1[0m" 200 -
+82.221.105.6 - - [07/Mar/2020 19:46:02] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+82.221.105.6 - - [07/Mar/2020 19:46:02] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+82.221.105.6 - - [07/Mar/2020 19:46:03] "[33mGET /.well-known/security.txt HTTP/1.1[0m" 404 -
+82.221.105.6 - - [07/Mar/2020 19:46:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+176.31.105.192 - - [07/Mar/2020 19:46:12] "[37mGET / HTTP/1.1[0m" 200 -
+45.152.6.58 - - [07/Mar/2020 20:49:48] "[33mHEAD /robots.txt HTTP/1.0[0m" 404 -
+92.28.3.151 - - [07/Mar/2020 22:23:20] "[37mGET / HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:30] "[37mGET / HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:30] "[37mGET /static/index/assets/css/nucleo-icons.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:30] "[37mGET /static/index/assets/img/brand/blue.png HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:30] "[37mGET /static/index/assets/css/font-awesome.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:30] "[37mGET /static/index/assets/css/nucleo-svg.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:30] "[37mGET /static/index/assets/css/app.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:30] "[37mGET /static/index/assets/css/argon-design-system.css?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:30] "[37mGET /static/index/assets/js/core/popper.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:30] "[37mGET /static/index/assets/js/core/jquery.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:30] "[37mGET /static/index/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:30] "[37mGET /static/index/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:30] "[37mGET /static/index/assets/js/plugins/bootstrap-switch.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:30] "[37mGET /static/index/assets/js/plugins/nouislider.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:30] "[37mGET /static/index/assets/js/plugins/moment.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:30] "[37mGET /static/index/assets/js/plugins/datetimepicker.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:31] "[37mGET /static/index/assets/js/argon-design-system.min.js?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:31] "[37mGET /static/index/assets/js/plugins/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:32] "[37mGET /static/index/assets/img/favicon.png HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:32] "[37mGET /static/index/assets/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:34] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:35] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:35] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:35] "[37mGET /static/dashboard/assets/img/brand/favicon.png HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:35] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:38] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:38] "[37mGET /static/dashboard/assets/img/theme/bootstrap.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:38] "[37mGET /static/dashboard/assets/img/theme/vue.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:32:38] "[37mGET /static/dashboard/assets/img/theme/angular.jpg HTTP/1.1[0m" 200 -
+94.64.234.131 - - [07/Mar/2020 22:43:40] "[37mGET / HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:46:55] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 22:49:26] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 22:49:26] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+ * Detected change in '/home/ubuntu/AutovaxWeb/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 273-178-088
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET / HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET /static/index/assets/css/nucleo-icons.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET /static/index/assets/img/brand/blue.png HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET /static/index/assets/css/nucleo-svg.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET /static/index/assets/css/font-awesome.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET /static/index/assets/css/app.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET /static/index/assets/css/argon-design-system.css?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET /static/index/assets/js/core/jquery.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET /static/index/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET /static/index/assets/js/core/popper.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET /static/index/assets/js/plugins/nouislider.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET /static/index/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET /static/index/assets/js/plugins/bootstrap-switch.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET /static/index/assets/js/plugins/moment.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET /static/index/assets/js/plugins/datetimepicker.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET /static/index/assets/js/plugins/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:05] "[37mGET /static/index/assets/js/argon-design-system.min.js?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:06] "[37mGET /static/index/assets/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:52] "[35m[1mGET /treatmentDetail?ID=12 HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/AutovaxWeb/main.py", line 19, in treatementDetail
+    return render_template("treatementDetail",mmdbid=treatementID)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 117, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: treatementDetail
+209.6.79.247 - - [07/Mar/2020 23:03:52] "[37mGET /treatmentDetail?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:52] "[37mGET /treatmentDetail?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:52] "[37mGET /treatmentDetail?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:52] "[37mGET /treatmentDetail?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:52] "[37mGET /treatmentDetail?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:03:52] "[37mGET /treatmentDetail?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+ * Detected change in '/home/ubuntu/AutovaxWeb/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 273-178-088
+209.6.79.247 - - [07/Mar/2020 23:04:40] "[35m[1mGET /treatmentDetail?ID=12 HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/AutovaxWeb/main.py", line 19, in treatementDetail
+    return render_template("treatementDetail.html",mmdbid=treatementID)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 117, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: treatementDetail.html
+209.6.79.247 - - [07/Mar/2020 23:04:41] "[37mGET /treatmentDetail?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:41] "[37mGET /treatmentDetail?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:41] "[37mGET /treatmentDetail?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:41] "[37mGET /treatmentDetail?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:41] "[37mGET /treatmentDetail?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+ * Detected change in '/home/ubuntu/AutovaxWeb/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 273-178-088
+209.6.79.247 - - [07/Mar/2020 23:04:57] "[37mGET /treatmentDetail?ID=12 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:58] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:58] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:58] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:58] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:58] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:58] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:58] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:58] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:58] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:58] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:58] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:58] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:58] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:58] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:58] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:58] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:59] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:59] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:04:59] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:05:12] "[37mGET /treatmentDetail?ID=13 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:05:20] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:05:25] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:05:25] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:07:10] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:07:10] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:07:10] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:07:12] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:07:12] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:07:12] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:08:01] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:08:01] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:08:01] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:10:03] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:04] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:10:04] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:10:05] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:10:06] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:10:07] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:07] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:07] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:25] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:10:25] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:10:25] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:11:50] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:11:50] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:11:50] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+18.212.195.0 - - [07/Mar/2020 23:12:30] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+18.212.195.0 - - [07/Mar/2020 23:12:30] "[37mGET /static/dashboard/assets/img/brand/favicon.png HTTP/1.1[0m" 200 -
+34.207.191.64 - - [07/Mar/2020 23:12:31] "[37mGET /static/dashboard/assets/img/brand/favicon.png HTTP/1.1[0m" 200 -
+52.221.195.0 - - [07/Mar/2020 23:12:38] "[37mGET /static/dashboard/assets/img/brand/favicon.png HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:43] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:43] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:43] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:43] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:43] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:43] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:43] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:43] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:43] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:44] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:44] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:44] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:44] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:44] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:44] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:45] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:45] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:45] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:45] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:12:47] "[37mGET /static/dashboard/assets/img/brand/favicon.png HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:20] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:21] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:22] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:13:40] "[37mGET /treatmentDetail?ID=1top HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:14:03] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:14:03] "[37mGET /static/dashboard/assets/img/theme/bootstrap.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:14:03] "[37mGET /static/dashboard/assets/img/theme/angular.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:14:03] "[37mGET /static/dashboard/assets/img/theme/vue.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:14:31] "[33mGET /index.html HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:14:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:16:38] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:40] "[37mGET /static/dashboard/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:41] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:41] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:16:41] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:17:07] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:17:45] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:18:56] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:18:58] "[37mGET / HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:19:06] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:19:07] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:19:07] "[37mGET /static/dashboard/assets/img/theme/bootstrap.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:19:07] "[37mGET /static/dashboard/assets/img/theme/angular.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:19:07] "[37mGET /static/dashboard/assets/img/theme/vue.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:19:08] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:19:09] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:19:10] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:19:11] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:19:12] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:19:12] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:19:13] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:19:14] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:19:14] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:19:15] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:20:09] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:20:10] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:20:11] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:21:38] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:21:38] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:21:39] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:21:40] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:22:11] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:22:11] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:23:10] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:23:10] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:23:59] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:23:59] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:23:59] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:25:16] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:31:06] "[37mGET /treatments HTTP/1.1[0m" 200 -
+52.221.195.0 - - [07/Mar/2020 23:32:35] "[37mGET /static/dashboard/assets/img/brand/favicon.png HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:01] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:03] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:07] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:08] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:32] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:33] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:34] "[37mGET / HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:36] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:36:37] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:37:15] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:37:16] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:37:59] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:38:01] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:38:02] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:38:02] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:38:03] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:38:05] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:38:20] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:38:24] "[37mGET /treatments HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:49] "[37mGET /treatmentDetail?ID=1 HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:54] "[37mGET / HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:54] "[37mGET /static/index/assets/css/nucleo-svg.css HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:54] "[37mGET /static/index/assets/css/app.css HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:54] "[37mGET /static/index/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:54] "[37mGET /static/index/assets/js/plugins/bootstrap-switch.js HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:54] "[37mGET /static/index/assets/js/plugins/moment.min.js HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:54] "[37mGET /static/index/assets/js/plugins/nouislider.min.js HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:54] "[37mGET /static/index/assets/css/font-awesome.css HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:54] "[37mGET /static/index/assets/img/brand/blue.png HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:54] "[37mGET /static/index/assets/css/nucleo-icons.css HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:54] "[37mGET /static/index/assets/js/plugins/datetimepicker.js HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:54] "[37mGET /static/index/assets/js/core/popper.min.js HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:54] "[37mGET /static/index/assets/js/core/bootstrap.min.js HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:54] "[37mGET /static/index/assets/js/core/jquery.min.js HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:54] "[37mGET /static/index/assets/css/argon-design-system.css?v=1.2.0 HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:54] "[37mGET /static/index/assets/js/plugins/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:55] "[37mGET /static/index/assets/js/argon-design-system.min.js?v=1.2.0 HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:55] "[37mGET /static/index/assets/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:56] "[37mGET /static/index/assets/img/favicon.png HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:38:57] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:39:01] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:12] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:13] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:14] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:14] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:14] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:14] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:14] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:14] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:14] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:14] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:14] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:14] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:14] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:14] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:14] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:14] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:14] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:15] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:15] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:39:15] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:39:21] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:39:24] "[37mGET / HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:39:28] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:39:31] "[37mGET /treatments HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:39:39] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+50.210.92.165 - - [07/Mar/2020 23:39:42] "[37mGET / HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:40:04] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:40:04] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:41:12] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:41:12] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:41:12] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:42:21] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:42:22] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:42:22] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:42:40] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:42:40] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:44:18] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:44:18] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:44:18] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:45:19] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:45:19] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:46:11] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:46:11] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:46:11] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:46:53] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:46:54] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:46:54] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:47:47] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:47:47] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:47:47] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:48:27] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:27] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:48:27] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:48:28] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:28] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:48:28] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:48:29] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:29] "[37mGET /static/dashboard/assets/vendor/nucleo/css/nucleo.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:29] "[37mGET /static/dashboard/assets/css/argon.css?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:29] "[37mGET /static/dashboard/assets/img/theme/team-2.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:29] "[37mGET /static/dashboard/assets/img/theme/team-3.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:29] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:29] "[37mGET /static/dashboard/assets/img/theme/team-1.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:29] "[37mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:29] "[37mGET /static/dashboard/assets/vendor/js-cookie/js.cookie.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:29] "[37mGET /static/dashboard/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:29] "[37mGET /static/dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:29] "[37mGET /static/dashboard/assets/js/argon.js?v=1.2.0 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:29] "[37mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:29] "[37mGET /static/dashboard/assets/img/theme/team-5.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:29] "[37mGET /static/dashboard/assets/img/theme/team-4.jpg HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:30] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:48:30] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:48:30] "[37mGET /static/dashboard/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:30] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:30] "[37mGET /static/dashboard/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:38] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:39] "[37mGET /treatments HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:39] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:48:44] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:48:44] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:49:02] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+209.6.79.247 - - [07/Mar/2020 23:49:02] "[33mGET /static/dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js.map HTTP/1.1[0m" 404 -
+209.6.79.247 - - [07/Mar/2020 23:49:02] "[33mGET /static/dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -

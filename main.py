@@ -13,6 +13,10 @@ def dashboard():
 @app.route("/treatments")
 def treatements():
 	return render_template("treatments.html")
+@app.route("/treatmentDetail")
+def treatementDetail():
+	treatementID = request.args.get('ID')
+	return render_template("treatmentDetail.html",mmdbid=treatementID)
 
 
 
