@@ -2,6 +2,8 @@ from flask import Flask, request, render_template, url_for, redirect, send_file,
 app = Flask(__name__,static_folder='static')
 
 
+virusDatabase=[]
+
 @app.route("/")
 def index():
 	return render_template("index.html")
@@ -9,6 +11,16 @@ def index():
 @app.route("/dashboard")
 def dashboard():
 	return render_template("dashboard.html")
+
+@app.route("/addVirus",methods=['POST'])
+def addVirus():
+	virusName=request.form["virusName"]
+	virusDatabase.append({"virusName":virusName,stat:"processing",percentComplete:0})
+	return redirect(url_for("treatements"))
+
+
+
+
 
 @app.route("/treatments")
 def treatements():
