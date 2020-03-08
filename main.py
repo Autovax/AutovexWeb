@@ -109,7 +109,7 @@ tdTemplateProg="""
 										</td>-->
 										<td>
 											<div class="d-flex align-items-center">
-												<span class="completion mr-2">70%</span>
+												<span class="completion mr-2">{}%</span>
 												<div>
 													<div class="progress">
 														<div class="progress-bar bg-warning" role="progressbar" aria-valuenow="{}" aria-valuemin="0" aria-valuemax="100" style="width: {}%;"></div>
@@ -158,7 +158,7 @@ def treatements():
 	content=""
 	for i in virusDatabase:
 		if i["percentComplete"]<100:
-			content+=tdTemplateProg.format(i["virusName"],i["percentComplete"],i["percentComplete"])
+			content+=tdTemplateProg.format(i["virusName"],i["percentComplete"],i["percentComplete"],i["percentComplete"])
 		else:
 			content+=tdTemplateSucc.format("http://ec2-54-166-13-51.compute-1.amazonaws.com/treatmentDetail?ID=2por",i["virusName"])
 	print(content)
