@@ -161,7 +161,9 @@ def treatements():
 			content+=tdTemplateProg.format(i["virusName"],i["percentComplete"],i["percentComplete"])
 		else:
 			content+=tdTemplateSucc.format("http://ec2-54-166-13-51.compute-1.amazonaws.com/treatmentDetail?ID=2por",i["virusName"])
-	return render_template("treatments.html",trContent=content)
+	print(content)
+  print(virusDatabase)
+  return render_template("treatments.html",trContent=content)
 @app.route("/treatmentDetail")
 def treatementDetail():
 	treatementID = request.args.get('ID')
