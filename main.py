@@ -15,7 +15,7 @@ def dashboard():
 @app.route("/addVirus",methods=['POST'])
 def addVirus():
 	virusName=request.form["virusName"]
-	virusDatabase.append({"virusName":virusName,stat:"processing",percentComplete:0})
+	virusDatabase.append({"virusName":virusName,"stat":"processing","percentComplete":0})
 	return redirect(url_for("treatements"))
 
 
